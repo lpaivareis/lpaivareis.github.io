@@ -18,16 +18,45 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: lpaivareis
-github_username:  lpaivareis
+# title: Lucas Paiva
+# email: your-email@example.com
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: lpaivareis
+# github_username:  lpaivareis
+
+
+title: Explore the world of code
+tagline: Lucas Felipe
+description: Welcome to my blog where I share my experiences and knowledge about software development.
+baseurl: ""
+url: "https://lucaspaiva.dev"
+logo: "assets/favicon.png"
+
+plainwhite:
+  name: Lucas Felipe
+  tagline: Software Developer
+  date_format: "%b %-d, %Y"
+  html_lang: "pt-BR"
+  dark_mode: true
+  search: true
+  social_links:
+    twitter: lpaivareis
+    github: lpaivareis
+    linkedIn: in/lpaivareis
+  portfolio_image: "assets/profile.png"
+  portfolio_image_dark: "assets/profile.png"
+  navigation:
+    - title: About
+      url: /about
+  condensed_mobile:
+    - home
+    - post
+    - page
 
 # Build settings
 theme: plainwhite
